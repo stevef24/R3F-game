@@ -9,6 +9,7 @@ import * as RAPIER from "@dimforge/rapier3d-compat";
 
 const Player = () => {
 	const test = useRapier();
+  
 
 	const body = useRef();
 	const [subscribeKeys, getKeys] = useKeyboardControls();
